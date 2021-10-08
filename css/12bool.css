@@ -1,0 +1,138 @@
+.container{
+    width: 1179px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* colonna standard */
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* grow shrink basis per evitare bug */
+
+[class *="col-"]{
+    flex: 0 0 auto;
+}
+
+
+
+/* colonna elastica */
+
+.col{
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+}
+
+/* colonne offset */
+
+.col-offset-1{
+    margin-left: calc((100% / 12) * 1);
+}
+
+.col-offset-2{
+    margin-left: calc((100% / 12) * 2);
+}
+
+.col-offset-3{
+    margin-left: calc((100% / 12) * 3);
+}
+
+.col-offset-4{
+    margin-left: calc((100% / 12) * 4);
+}
+
+.col-offset-5{
+    margin-left: calc((100% / 12) * 5);
+}
+
+.col-offset-6{
+    margin-left: calc((100% / 12) * 6);
+}
+
+.col-offset-7{
+    margin-left: calc((100% / 12) * 7);
+}
+
+.col-offset-8{
+    margin-left: calc((100% / 12) * 8);
+}
+
+.col-offset-9{
+    margin-left: calc((100% / 12) * 9);
+}
+
+.col-offset-10{
+    margin-left: calc((100% / 12) * 10);
+}
+
+.col-offset-11{
+    margin-left: calc((100% / 12) * 11);
+}
+
+
+/* colonne XS */
+
+.col-xs-1{
+    flex-basis: calc((100% / 12) * 1);
+    max-width: calc((100% / 12) * 1);
+}
+
+.col-xs-2{
+    flex-basis: calc((100% / 12) * 2);
+    max-width: calc((100% / 12) * 2);
+}
+
+.col-xs-3{
+    flex-basis: calc((100% / 12) * 3);
+    max-width: calc((100% / 12) * 3);
+}
+
+.col-xs-4{
+    flex-basis: calc((100% / 12) * 4);
+    max-width: calc((100% / 12) * 4);
+}
+
+.col-xs-5{
+    flex-basis: calc((100% / 12) * 5);
+    max-width: calc((100% / 12) * 5);
+}
+
+.col-xs-6{
+    flex-basis: calc((100% / 12) * 6);
+    max-width: calc((100% / 12) * 6);
+}
+
+.col-xs-7{
+    flex-basis: calc((100% / 12) * 7);
+    max-width: calc((100% / 12) * 7);
+}
+
+.col-xs-8{
+    flex-basis: calc((100% / 12) * 8);
+    max-width: calc((100% / 12) * 8);
+}
+
+.col-xs-9{
+    flex-basis: calc((100% / 12) * 9);
+    max-width: calc((100% / 12) * 9);
+}
+
+.col-xs-10{
+    flex-basis: calc((100% / 12) * 10);
+    max-width: calc((100% / 12) * 10);
+}
+
+.col-xs-11{
+    flex-basis: calc((100% / 12) * 11);
+    max-width: calc((100% / 12) * 11);
+}
+
+.col-xs-12{
+    flex-basis: calc((100% / 12) * 12);
+    max-width: calc((100% / 12) * 12);
+}
