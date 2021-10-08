@@ -1,0 +1,15 @@
+.box{
+    padding: 10px;
+    background-color: blue;
+    border: 1px solid white;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.spazio{
+    height: 15px;
+    width: 100%;
+    background-color:white;
+}

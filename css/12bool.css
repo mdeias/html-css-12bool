@@ -1,5 +1,5 @@
 .container{
-    width: 1179px;
+    width: 992px;
     max-width: 100%;
     margin: 0 auto;
 }
@@ -279,7 +279,7 @@
 
 @media all and (min-width: 992px) {
     .container{
-        width: 940px;
+        width: 950px;
     }
 
     .col-lg-1{
