@@ -77,6 +77,8 @@
 
 /* colonne XS default*/
 
+
+
 .col-xs-1{
     flex-basis: calc((100% / 12) * 1);
     max-width: calc((100% / 12) * 1);
@@ -136,6 +138,20 @@
     flex-basis: calc((100% / 12) * 12);
     max-width: calc((100% / 12) * 12);
 }
+
+
+/* azzero il margine nella misura inferiore permettendo alle row di posizionarsi nel modo corretto */
+
+
+@media all and (max-width: 575px){
+
+    [class *="col-offset"]{
+        margin: 0px;
+    }
+
+}
+
+
 
 /* colonne SM */
 

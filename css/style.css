@@ -1,11 +1,15 @@
 .box{
-    padding: 10px;
-    background-color: blue;
+    padding: 15px;
+    background-color:rebeccapurple;
     border: 1px solid white;
     color: white;
     font-size: 12px;
     text-align: center;
     box-sizing: border-box;
+}
+
+.nasted{
+    background-color:sandybrown;
 }
 
 .spazio{
